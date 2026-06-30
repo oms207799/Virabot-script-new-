@@ -1,0 +1,132 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Virabot",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Virabot HI",
+   LoadingSubtitle = "by oms207799",
+   ShowText = "Rayfield", -- for mobile users to unhide Rayfield, change if you'd like
+   Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   ToggleUIKeybind = "V", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from emitting warnings when the script has a version mismatch with the interface.
+
+   -- ScriptID = "sid_xxxxxxxxxxxx", -- Your Script ID from developer.sirius.menu — enables analytics, managed keys, and script hosting
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Virabot"
+   },
+
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include Discord.gg/. E.g. Discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the Discord every time they load it up
+   },
+
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Vira key",
+      Subtitle = "Vira Key System",
+      Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
+      FileName = "Key", -- It is recommended to use something unique, as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Virakey"} -- List of keys that the system will accept, can be RAW file links (pastebin, github, etc.) or simple strings ("hello", "key22")
+   }
+})
+local Tab = Window:CreateTab("scripts", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("scripts")
+local Button = Tab:CreateButton({
+   Name = "fly",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fly-45749"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "teleport",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toolbox231/Toolbox231/refs/heads/main/xz.txt"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "touch fling",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Universal-Touch-fling-27515"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "fe kill player",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/DeviousGroup/local/refs/heads/main/killgui.lua"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "fe admin",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealAsu/BABFT/refs/heads/main/UAP.lua'), true)()
+   end,
+})
+local Tab = Window:CreateTab("scripts 2", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("scripts 2")
+local Button = Tab:CreateButton({
+   Name = "smooth first person camera",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/XCtZsGhP/raw"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "sonic",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Azizanzz0/FE-R15-Sonic-X-Super/refs/heads/main/Protected%20SonicXSuper.txt"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "sonic exe",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/XCtZsGhP/raw"))()
+   end,
+})
+local Tab = Window:CreateTab("Games", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Games")
+local Button = Tab:CreateButton({
+   Name = "Brookhaven not done yet",
+   Callback = function()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Blade ball not done yet",
+   Callback = function()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "dead rails not done yet",
+   Callback = function()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "prison life",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/zenss555a/script/refs/heads/main/Prison-Life.lua", true))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "animal hospital",
+   Callback = function()
+   loadstring(game:HttpGet("https://rblxscripts.net/raw/cyraa-hub-auto-farm-auto-buy-esp-item-pickup-teleport-and-mo-d60e521e"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "grow a garden 2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Makuscripts/GrowAGarden2/refs/heads/main/AdminCMD"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "grow a garden 2 (2) working on it",
+   Callback = function()
+   end,
+})
