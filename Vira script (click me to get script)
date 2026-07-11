@@ -139,7 +139,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "forsaken",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Actualmrp/Frostware-forsaken/refs/heads/main/Forsaken",true))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruOnDiscord/Halcyon/refs/heads/main/loader.lua"))()
    end,
 })
 local Tab = Window:CreateTab("script key", 4483362458) -- Title, Image
@@ -147,5 +147,19 @@ local Section = Tab:CreateSection("script key")
 local Button = Tab:CreateButton({
    Name = "bake or die key=unknown",
    Callback = function()
+   end,
+})
+local Tab = Window:CreateTab("fe hats script", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("fe hats script")
+local Button = Tab:CreateButton({
+   Name = "fe Noli admin",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/wbRLXc7F"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "fe 1x1x1x1",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/6k2xaeaC"))()
    end,
 })
