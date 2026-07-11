@@ -130,3 +130,22 @@ local Button = Tab:CreateButton({
    Callback = function()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "bake or die",
+   Callback = function()
+   loadstring(game:HttpGet("https://getnative.cc/script/loader"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "forsaken",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Actualmrp/Frostware-forsaken/refs/heads/main/Forsaken",true))()
+   end,
+})
+local Tab = Window:CreateTab("script key", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("script key")
+local Button = Tab:CreateButton({
+   Name = "bake or die key=unknown",
+   Callback = function()
+   end,
+})
