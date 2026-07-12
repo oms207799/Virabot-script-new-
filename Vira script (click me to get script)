@@ -142,6 +142,12 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruOnDiscord/Halcyon/refs/heads/main/loader.lua"))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "forsaken (2)",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/dedf0bf000a6fd3bfc72839c50c46d6447f9aa4a7d5ad85adcfa6acf029e3362/download"))()
+   end,
+})
 local Tab = Window:CreateTab("script key", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("script key")
 local Button = Tab:CreateButton({
@@ -161,5 +167,11 @@ local Button = Tab:CreateButton({
    Name = "fe 1x1x1x1",
    Callback = function()
    loadstring(game:HttpGet("https://pastebin.com/raw/6k2xaeaC"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "fe swords",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxinStud10/24-Hours/refs/heads/main/Obfuscations/DualSolarisV2.luau"))()
    end,
 })
